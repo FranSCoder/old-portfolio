@@ -96,7 +96,6 @@ nav>a {
 
 #presentation-section h1 {
   font-size: 3rem;
-  width: 20%;
   padding-bottom: 20px;
   margin: 30px 0;
   text-align: center;
@@ -110,7 +109,6 @@ nav>a {
 
 #presentation-section p {
   font-size: 1.2rem;
-  margin: 0 0 50px 0;
 }
 
 #lists-square {
@@ -118,7 +116,7 @@ nav>a {
 }
 
 .text-square {
-  margin: 0 100px;
+  margin: 75px;
 }
 
 .text-square li {
@@ -265,6 +263,11 @@ a.project-tile>span {
 @media only screen and (max-width: 500px) {
   nav {
     display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+  }
+  
+  #lists-square {
     flex-direction: column;
   }
 
