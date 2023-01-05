@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-  --main-white: ghostwhite;
+  --main-white: gainsboro;
 }
 
 * {
@@ -11,7 +11,6 @@
   font-family: Roboto, "Open Sans", sans-serif;
   color: var(--main-white);
   margin: 0;
-  padding: 0;
 }
 
 body {
@@ -33,7 +32,6 @@ h1 {
 .bar {
   width: 100%;
   height: 3px;
-  background-color: silver;
 }
 
 nav {
@@ -83,6 +81,52 @@ nav>a {
   color: #00567d;
 }
 
+#presentation-section {
+  padding: 0 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background: linear-gradient(60deg,
+      #111 0%,
+      #101010 100%);
+}
+
+#presentation-section h1 {
+  font-size: 3rem;
+  width: 20%;
+  padding-bottom: 20px;
+  margin: 30px 0;
+  text-align: center;
+  border-bottom: 2px solid var(--main-white);
+}
+
+#presentation-section h3 {
+  text-decoration: underline;
+
+}
+
+#presentation-section p {
+  font-size: 1.2rem;
+  margin: 0 0 50px 0;
+}
+
+#lists-square {
+  display: flex;
+}
+
+.text-square {
+  margin: 0 100px;
+}
+
+.text-square li {
+  text-align: start;
+  font-size: 1.1rem;
+  margin: 20px 0;
+}
+
 /*PROJECTS*/
 
 #projects {
@@ -103,7 +147,7 @@ h2 {
   padding-bottom: 20px;
   margin-bottom: 20px;
   text-align: center;
-  border-bottom: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid var(--main-white);
 }
 
 .project {
@@ -111,10 +155,11 @@ h2 {
   flex-direction: column;
   align-items: center;
   background-color: #003046;
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid var(--main-white);
   border-radius: 10px;
   padding: 10px;
   margin: 1rem 0;
+  max-width: 87%;
 }
 
 #project-grid {
@@ -127,16 +172,9 @@ h2 {
 
 .project h3 {
   margin: 20px 0;
+  padding: 0 10px;
   font-size: 2rem;
-  border-bottom: 2px solid rgb(255, 255, 255);
-}
-
-#projects a {
-  border-radius: 10px;
-  margin: 10px;
-  width: 300px;
-  height: 200px;
-  padding: 0;
+  border-bottom: 2px solid var(--main-white);
 }
 
 .project-title {
@@ -157,10 +195,32 @@ h2 {
 a.project-tile {
   display: flex;
   flex-direction: column;
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  padding: 0;
 }
 
 a.project-tile>span {
   text-align: center;
+}
+
+.mas {
+  display: flex;
+  align-items: center;
+  margin: 30px 60px;
+}
+
+.fa-github {
+  font-size: 2rem;
+  margin: 0 10px;
+}
+
+#replit-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
 }
 
 /*CONTACT*/
