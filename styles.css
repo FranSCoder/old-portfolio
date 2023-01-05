@@ -35,7 +35,11 @@
   }
   
   nav {
-    background-color: #be3144;
+    background: linear-gradient(
+      60deg,
+      #0093d6 0%,
+      #00567d 100%
+    );
     width: 100vw;
     display: flex;
     position: fixed;
@@ -67,8 +71,8 @@
     justify-content: center;
     background: linear-gradient(
       60deg,
-      #555555 0%,
-      #111111 100%
+      #111 0%,
+      #101010 100%
     );
   }
   
@@ -77,7 +81,7 @@
     font-size: 2rem;
     font-weight: 100;
     font-style: italic;
-    color: #be3144;
+    color: #00567d;
   }
   
   /*PROJECTS*/
@@ -89,12 +93,19 @@
     justify-content: space-evenly;
     background: linear-gradient(
       60deg,
-      rgb(0, 50, 140, 0.5) 0%,
-      #111111 100%
+      #001b36 0%,
+      #000912 100%
     );
-    margin: 0;
-      padding: 20px 0;
     min-height: 100vh;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
   }
   
   #project-grid {
@@ -107,20 +118,25 @@
   
   #projects a {
     border-radius: 10px;
-    border: 2px solid black;
     margin: 10px;
+    width: 300px;
+    height: 200px;
+    padding: 0;
   }
   
-  #projects span {
+  .project-title {
     border-radius: 10px 10px 0 0;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
     font-family: Roboto, sans-serif;
-    background-color: #666;
+    background-color: #050505;
     padding: 5px 0;
+    position: relative;
   }
   
   #projects img {
     border-radius: 0 0 10px 10px;
-    width: 300px;
   }
   
   h2 {
@@ -150,8 +166,8 @@
     height: 100vh;
     background: linear-gradient(
       60deg,
-      #555 0%,
-      #111 100%
+      #111 0%,
+      #101010 100%
     );
     margin: 0;
     padding: 0;
