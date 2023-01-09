@@ -4,6 +4,12 @@
 
 :root {
   --main-white: gainsboro;
+  --gray-gradient: linear-gradient(90deg,
+      #050505 0%,
+      #101010 100%);
+  --skyblue-gradient: linear-gradient(300deg,
+      #0076ad 0%,
+      #003046 100%);
 }
 
 * {
@@ -35,9 +41,11 @@ h1 {
 }
 
 nav {
-  background: linear-gradient(60deg,
-      #0093d6 0%,
-      #00567d 100%);
+  background: linear-gradient(
+      #000,
+      #006290 10%,
+      #006290 90%,
+      #000 100%);
   width: 100vw;
   display: flex;
   position: fixed;
@@ -68,9 +76,7 @@ nav>a {
   align-content: center;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(60deg,
-      #111 0%,
-      #101010 100%);
+  background: var(--gray-gradient);
 }
 
 #welcome-section>p {
@@ -89,9 +95,7 @@ nav>a {
   justify-content: center;
   align-content: center;
   align-items: center;
-  background: linear-gradient(60deg,
-      #111 0%,
-      #101010 100%);
+  background: var(--gray-gradient);
 }
 
 #presentation-section h1 {
@@ -132,9 +136,7 @@ nav>a {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  background: linear-gradient(60deg,
-      #000912 0%,
-      #000912 100%);
+  background: var(--gray-gradient);
   min-height: 100vh;
   padding: 3rem 0;
 }
@@ -152,7 +154,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #003046;
+  background: var(--skyblue-gradient);
   border: 2px solid var(--main-white);
   border-radius: 10px;
   padding: 10px;
@@ -229,9 +231,7 @@ a.project-tile>span {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: linear-gradient(60deg,
-      #111 0%,
-      #101010 100%);
+  background: var(--gray-gradient);
   margin: 0;
   padding: 0;
 }
@@ -266,7 +266,7 @@ a.project-tile>span {
     flex-direction: column;
     padding: 5px 0;
   }
-  
+
   #lists-square {
     flex-direction: column;
   }
