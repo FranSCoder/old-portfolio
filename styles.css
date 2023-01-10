@@ -1,6 +1,6 @@
 /*GENERAL*/
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Montserrat&family=Open+Sans&family=Playfair+Display&family=Roboto&family=Roboto+Slab&family=Titillium+Web&display=swap');
 
 :root {
   --main-white: gainsboro;
@@ -8,13 +8,13 @@
       #050505 0%,
       #101010 100%);
   --skyblue-gradient: linear-gradient(300deg,
-      #0076ad 0%,
-      #003046 100%);
+      #033571 0%,
+      #091221 100%);
 }
 
 * {
   box-sizing: border-box;
-  font-family: Roboto, "Open Sans", sans-serif;
+  font-family: "League Spartan";
   color: var(--main-white);
   margin: 0;
 }
@@ -42,10 +42,11 @@ h1 {
 
 nav {
   background: linear-gradient(
-      #000,
-      #006290 10%,
-      #006290 90%,
-      #000 100%);
+      #091221,
+      #52abff 10%,
+      #52abff 90%,
+      #091221 100%
+  );
   width: 100vw;
   display: flex;
   position: fixed;
@@ -53,7 +54,7 @@ nav {
   justify-content: right;
   align-items: center;
   gap: 20px;
-  padding: 5px 50px 5px 0;
+  padding: 7px 50px 5px 0;
   z-index: 1;
 }
 
@@ -61,8 +62,10 @@ a {
   text-decoration: none;
 }
 
-nav>a {
+nav p {
   font-size: 1.3rem;
+  color: #181818;
+  font-weight: bold;
 }
 
 /*WELCOME*/
@@ -83,7 +86,6 @@ nav>a {
   margin: 0;
   font-size: 2rem;
   font-weight: 100;
-  font-style: italic;
   color: #00567d;
 }
 
