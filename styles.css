@@ -19,6 +19,10 @@
   margin: 0;
 }
 
+p {
+  font-size: 1.2rem;
+}
+
 body {
   position: relative;
   margin: 0;
@@ -113,10 +117,6 @@ nav p {
 #presentation-section h3 {
   text-decoration: underline;
 
-}
-
-#presentation-section p {
-  font-size: 1.2rem;
 }
 
 #lists-square {
