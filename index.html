@@ -1,209 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>FranSCoder Portfolio</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-  <link rel="stylesheet" href="styles.css">
-  <title>FranSCoder Portfolio</title>
-</head>
+  <body>
+    <!--START NAVBAR-->
+    <nav id="navbar">
+      <a href="#presentation-section">
+        <p>Sobre mí</p>
+      </a>
+      <a href="#projects">
+        <p>Mis Proyectos</p>
+      </a>
+      <a href="#contact">
+        <p>Contacto</p>
+      </a>
+    </nav>
+    <!--END NAVBAR-->
 
-<body>
-  <!--START NAVBAR-->
-  <nav id="navbar">
-    <a href="#presentation-section">
-      <p>Sobre mí</p>
-    </a>
-    <a href="#projects">
-      <p>Mis Proyectos</p>
-    </a>
-    <a href="#contact">
-      <p>Contacto</p>
-    </a>
-  </nav>
-  <!--END NAVBAR-->
+    <!--START WELCOME-->
+    <section id="welcome-section">
+      <h1>Hola, soy Fran</h1>
+      <p>desarrollador web / front-end / React</p>
+    </section>
+    <!--END WELCOME-->
 
-  <!--START WELCOME-->
-  <section id="welcome-section">
-    <h1>Hola, soy Fran</h1>
-    <p>desarrollador web / front-end / React</p>
-  </section>
-  <!--END WELCOME-->
+    <div class="bar"></div>
 
-  <div class="bar"></div>
-
-  <!--START ABOUT ME-->
-  <section id="presentation-section">
-    <h1>Sobre mí</h1>
-    <p>Si estás aquí, lo más probable es que lo que más te interesen sean mis logros y capacidades, ¡así que vayamos
-      al grano!</p>
-    <div id="lists-square">
-      <div class="text-square">
-        <h3>Mis datos y estudios oficiales:</h3>
-        <ul>
-          <li>Me llamo Francisco Sánchez, tengo 30 años.</li>
-          <li>Certificado full-stack developer freeCodeCamp.</li>
-          <li>Primer año del Grado en Física - UNED.</li>
-          <li>Bachillerato Científico-Tecnlógico.</li>
-          <li>Inglés nivel C1.</li>
-          <li>¡También soy graduado en turismo!</li>
-        </ul>
-      </div>
-      <div class="text-square">
-        <h3>Mis conocimientos:</h3>
-        <ul>
-          <li>HTML & CSS (diseño web responsivo, SASS, bootstrap...).</li>
-          <li>JavaScript (React, Redux, jQuery, D3.js...).</li>
-          <li>PostgreSQL, SQLite, MySQL, MongoDB.</li>
-          <li>Git & GitHub.</li>
-          <li>UNIX Sripting & Bash.</li> 
-          <li>Node.js (Express, MongoDB, Mongoose, Chai, Mocha, Socket, Helmet.js...).</li>
-          <li>Typescript.</li>
-          <li>Python (Sockets, Numpy, Pandas, Matplotlib...).</li>
-          <li>PHP & Laravel.</li>
-          <li>C.</li>
-          <li>Machine Learning (Tensorflow, Keras...).</li>
-          <li>Nociones de hacking ético.</li>
-          <li>Otros: LaTeX, Jupyter Notebook, Google Colab, Maxima, Matlab...</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <!--END ABOUT ME-->
-
-  <div class="bar"></div>
-
-  <!--START PROJECTS-->
-  <section id="projects">
-    <h1>Algunos de mis proyectos...</h1>
-
-    <!-- PROJECTS 1 -->
-    <section class="project">
-      <h3>HTML & CSS</h3>
-      <div id="project-grid">
-        <a class="project-tile" href="https://franscoder.github.io/survey-form/" target="_blank">
-          <span class="project-title">Formulario</span>
-          <img src="./images/survey-form.png" alt="project">
-        </a>
-
-        <a class="project-tile" href="https://franscoder.github.io/tribute-page/" target="_blank">
-          <span class="project-title">Dark Souls</span>
-          <img src="./images/tribute-page.png" alt="project">
-        </a>
-
-        <a class="project-tile" href="https://franscoder.github.io/docs-page/" target="_blank">
-          <span class="project-title">Página de Documentación</span>
-          <img src="./images/doc-page.png" alt="project">
-        </a>
-
-        <a class="project-tile" href="https://franscoder.github.io/product-landing-page/" target="_blank">
-          <span class="project-title">Página web comercial</span>
-          <img src="./images/landing-page.png" alt="project">
-        </a>
+    <!--START ABOUT ME-->
+    <section id="presentation-section">
+      <h1>Sobre mí</h1>
+      <p>
+        Si estás aquí, lo más probable es que lo que más te interesen sean mis
+        logros y capacidades, ¡así que vayamos al grano!
+      </p>
+      <div id="lists-square">
+        <div class="text-square">
+          <h3>Mis datos y estudios oficiales:</h3>
+          <ul>
+            <li>Me llamo Francisco Sánchez, tengo 30 años.</li>
+            <li>Certificado full-stack developer freeCodeCamp.</li>
+            <li>Primer año del Grado en Física - UNED.</li>
+            <li>Bachillerato Científico-Tecnlógico.</li>
+            <li>Inglés nivel C1.</li>
+            <li>¡También soy graduado en turismo!</li>
+          </ul>
+        </div>
+        <div class="text-square">
+          <h3>Mis conocimientos:</h3>
+          <ul>
+            <li>HTML & CSS (diseño web responsivo, SASS, bootstrap...).</li>
+            <li>JavaScript (React, Redux, jQuery, D3.js...).</li>
+            <li>PostgreSQL, SQLite, MySQL, MongoDB.</li>
+            <li>Git & GitHub.</li>
+            <li>UNIX Sripting & Bash.</li>
+            <li>
+              Node.js (Express, MongoDB, Mongoose, Chai, Mocha, Socket,
+              Helmet.js...).
+            </li>
+            <li>Typescript.</li>
+            <li>Python (Sockets, Numpy, Pandas, Matplotlib...).</li>
+            <li>PHP & Laravel.</li>
+            <li>C.</li>
+            <li>Machine Learning (Tensorflow, Keras...).</li>
+            <li>Nociones de hacking ético.</li>
+            <li>
+              Otros: LaTeX, Jupyter Notebook, Google Colab, Maxima, Matlab...
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
+    <!--END ABOUT ME-->
 
-    <!-- PROJECTS 2 -->
-    <section class="project">
-      <h3>React, jQuery, Bootstrap, SASS...</h3>
-      <div id="project-grid">
-        <a class="project-tile" href="https://franscoder.github.io/quote-machine/" target="_blank">
-          <span class="project-title">Máquina de citas</span>
-          <img src="./images/quote-machine.PNG" alt="project">
-        </a>
+    <div class="bar"></div>
 
-        <a class="project-tile" href="https://franscoder.github.io/markdown-previewer/" target="_blank">
-          <span class="project-title">Previsualizador Markdown</span>
-          <img src="./images/markdown-previewer.png" alt="project">
-        </a>
+    <!--START PROJECTS-->
+    <section id="projects">
+      <h1>Algunos de mis proyectos...</h1>
 
-        <a class="project-tile" href="https://franscoder.github.io/launchpad/" target="_blank">
-          <span class="project-title">Launchpad</span>
-          <img src="./images/laucnhpad.png" alt="project">
-        </a>
+      <!-- PROJECTS 1 -->
+      <section class="project">
+        <h3>HTML & CSS</h3>
+        <div id="project-grid">
+          <a
+            class="project-tile"
+            href="https://franscoder.github.io/survey-form/"
+            target="_blank"
+          >
+            <span class="project-title">Formulario</span>
+            <img src="./images/survey-form.png" alt="project" />
+          </a>
 
-        <a class="project-tile" href="https://franscoder.github.io/calculator/" target="_blank">
-          <span class="project-title">Calculadora</span>
-          <img src="./images/calculator.png" alt="project">
-        </a>
+          <a
+            class="project-tile"
+            href="https://franscoder.github.io/tribute-page/"
+            target="_blank"
+          >
+            <span class="project-title">Dark Souls</span>
+            <img src="./images/tribute-page.png" alt="project" />
+          </a>
 
-        <a class="project-tile" href="https://franscoder.github.io/pomodoro-clock/" target="_blank">
-          <span class="project-title">Reloj Pomodoro</span>
-          <img src="./images/pomodoro-clock.png" alt="project">
-        </a>
+          <a
+            class="project-tile"
+            href="https://franscoder.github.io/docs-page/"
+            target="_blank"
+          >
+            <span class="project-title">Página de Documentación</span>
+            <img src="./images/doc-page.png" alt="project" />
+          </a>
+
+          <a
+            class="project-tile"
+            href="https://franscoder.github.io/product-landing-page/"
+            target="_blank"
+          >
+            <span class="project-title">Página web comercial</span>
+            <img src="./images/landing-page.png" alt="project" />
+          </a>
+        </div>
+      </section>
+
+      <!-- PROJECTS 2 -->
+      <section class="project">
+        <h3>React, jQuery, Bootstrap, SASS...</h3>
+        <div id="project-grid">
+          <a
+            class="project-tile"
+            href="https://franscoder.github.io/quote-machine/"
+            target="_blank"
+          >
+            <span class="project-title">Máquina de citas</span>
+            <img src="./images/quote-machine.PNG" alt="project" />
+          </a>
+
+          <a
+            class="project-tile"
+            href="https://franscoder.github.io/markdownpreviewer/"
+            target="_blank"
+          >
+            <span class="project-title">Previsualizador Markdown</span>
+            <img src="./images/markdown-previewer.png" alt="project" />
+          </a>
+
+          <a
+            class="project-tile"
+            href="https://franscoder.github.io/launchpad/"
+            target="_blank"
+          >
+            <span class="project-title">Launchpad</span>
+            <img src="./images/laucnhpad.png" alt="project" />
+          </a>
+
+          <a
+            class="project-tile"
+            href="https://franscoder.github.io/calculator/"
+            target="_blank"
+          >
+            <span class="project-title">Calculadora</span>
+            <img src="./images/calculator.png" alt="project" />
+          </a>
+
+          <a
+            class="project-tile"
+            href="https://franscoder.github.io/pomodoro-clock/"
+            target="_blank"
+          >
+            <span class="project-title">Reloj Pomodoro</span>
+            <img src="./images/pomodoro-clock.png" alt="project" />
+          </a>
+        </div>
+      </section>
+
+      <!-- PROJECTS 3 -->
+      <section class="project">
+        <h3>D3.js</h3>
+        <div id="project-grid">
+          <a
+            class="project-tile"
+            href="https://franscoder.github.io/us-gdp/"
+            target="_blank"
+          >
+            <span class="project-title">PIB EE.UU.</span>
+            <img src="./images/us-gdp.png" alt="project" />
+          </a>
+
+          <a
+            class="project-tile"
+            href="https://franscoder.github.io/movie-sales/"
+            target="_blank"
+          >
+            <span class="project-title">Películas Top-Seller</span>
+            <img src="./images/movie-sales.png" alt="project" />
+          </a>
+
+          <a
+            class="project-tile"
+            href="https://franscoder.github.io/global-temperatures/"
+            target="_blank"
+          >
+            <span class="project-title">Temperatura Global</span>
+            <img src="./images/global-temperatures.png" alt="project" />
+          </a>
+
+          <a
+            class="project-tile"
+            href="https://franscoder.github.io/doping-in-cycling/"
+            target="_blank"
+          >
+            <span class="project-title">Doping en el ciclismo</span>
+            <img src="./images/doping-in-cycling.png" alt="project" />
+          </a>
+
+          <a
+            class="project-tile"
+            href="https://franscoder.github.io/useducation/"
+            target="_blank"
+          >
+            <span class="project-title">Mapa Educación EE.UU.</span>
+            <img src="./images/us-education.png" alt="project" />
+          </a>
+        </div>
+      </section>
+
+      <!-- PROJECTS 4 -->
+      <section id="more-projects" class="project">
+        <h3>... y eso no es todo!</h3>
+        <p>
+          Al ser GitHub Pages una web de páginas estáticas, no es posible
+          mostrar aquí todos mis proyectos en Node.js, Python3, PostgreSQL, etc.
+          Por ello, te invito a visitar mis perfiles de GitHub y Repl.it, donde
+          podrás verlos funcionar y ojear sus códigos.
+        </p>
+        <div id="project-grid">
+          <a class="mas" href="https://github.com/FranSCoder" target="_blank"
+            ><i class="fa-brands fa-github"></i><span>GitHub</span></a
+          >
+          <a
+            class="mas"
+            href="https://replit.com/@FranSCoder?tab=repls"
+            target="_blank"
+            ><img
+              id="replit-icon"
+              src="./images/replit-icon.svg"
+              alt="github-icon"
+            /><span>Repl.it</span>
+          </a>
+        </div>
+      </section>
+    </section>
+    <!--END PROJECTS-->
+
+    <div class="bar"></div>
+
+    <!--START CONTACT-->
+    <section id="contact">
+      <div id="contact-title">
+        <h1>Contacto...</h1>
+        <p>...qué medio te gustaría utilizar?</p>
+      </div>
+
+      <div class="social-grid">
+        <a href="mailto:franscoder@gmail.com" class="btn contact-details"
+          ><i class="fas fa-at"></i> Email</a
+        >
+
+        <a
+          aria-label="Chat on WhatsApp"
+          href="https://wa.me/34663359457"
+          target="_blank"
+        >
+          <i class="fab fa-whatsapp"></i> WhatsApp</a
+        >
+
+        <a href="https://twitter.com/FranSCoder" target="_blank">
+          <i class="fa-brands fa-twitter"></i> Twitter</a
+        >
       </div>
     </section>
-
-    <!-- PROJECTS 3 -->
-    <section class="project">
-      <h3>D3.js</h3>
-      <div id="project-grid">
-        <a class="project-tile" href="https://franscoder.github.io/us-gdp/" target="_blank">
-          <span class="project-title">PIB EE.UU.</span>
-          <img src="./images/us-gdp.png" alt="project">
-        </a>
-
-        <a class="project-tile" href="https://franscoder.github.io/movie-sales/" target="_blank">
-          <span class="project-title">Películas Top-Seller</span>
-          <img src="./images/movie-sales.png" alt="project">
-        </a>
-
-        <a class="project-tile" href="https://franscoder.github.io/global-temperatures/" target="_blank">
-          <span class="project-title">Temperatura Global</span>
-          <img src="./images/global-temperatures.png" alt="project">
-        </a>
-
-        <a class="project-tile" href="https://franscoder.github.io/doping-in-cycling/" target="_blank">
-          <span class="project-title">Doping en el ciclismo</span>
-          <img src="./images/doping-in-cycling.png" alt="project">
-        </a>
-
-        <a class="project-tile" href="https://franscoder.github.io/us-education/" target="_blank">
-          <span class="project-title">Mapa Educación EE.UU.</span>
-          <img src="./images/us-education.png" alt="project">
-        </a>
-      </div>
-    </section>
-
-    <!-- PROJECTS 4 -->
-    <section id="more-projects" class="project">
-      <h3>... y eso no es todo!</h3>
-      <p>Al ser GitHub Pages una web de páginas estáticas, no es posible mostrar aquí todos mis proyectos en Node.js, Python3,
-        PostgreSQL, etc. Por ello, te invito a visitar mis perfiles de GitHub y Repl.it, donde podrás verlos funcionar y ojear sus códigos.</p>
-      <div id="project-grid">
-        <a class="mas" href="https://github.com/FranSCoder" target="_blank"><i
-            class="fa-brands fa-github"></i><span>GitHub</span></a>
-        <a class="mas" href="https://replit.com/@FranSCoder?tab=repls" target="_blank"><img id="replit-icon"
-            src="./images/replit-icon.svg" alt="github-icon" /><span>Repl.it</span> </a>
-      </div>
-    </section>
-
-  </section>
-  <!--END PROJECTS-->
-
-  <div class="bar"></div>
-
-  <!--START CONTACT-->
-  <section id="contact">
-    <div id="contact-title">
-      <h1>Contacto...</h1>
-      <p>...qué medio te gustaría utilizar?</p>
-    </div>
-
-    <div class="social-grid">
-
-      <a href="mailto:franscoder@gmail.com" class="btn contact-details"><i class="fas fa-at"></i> Email</a>
-
-      <a aria-label="Chat on WhatsApp" href="https://wa.me/34663359457" target="_blank"> <i class="fab fa-whatsapp"></i>
-        WhatsApp</a>
-
-      <a href="https://twitter.com/FranSCoder" target="_blank"> <i class="fa-brands fa-twitter"></i> Twitter</a>
-
-    </div>
-  </section>
-  <!--END CONTACT-->
-</body>
-
+    <!--END CONTACT-->
+  </body>
 </html>
